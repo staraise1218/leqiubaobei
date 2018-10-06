@@ -1,0 +1,88 @@
+<form id="edit-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Audio_classes_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-audio_classes_id" data-rule="required" data-source="audio/classes/index" class="form-control selectpage" name="row[audio_classes_id]" type="text" value="{$row.audio_classes_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Audio_lesson_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-audio_lesson_id" data-rule="required" data-source="audio/lesson/index" class="form-control selectpage" name="row[audio_lesson_id]" type="text" value="{$row.audio_lesson_id}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Episode')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-episode" data-rule="required" class="form-control" name="row[episode]" type="number" value="{$row.episode}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Title')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-title" data-rule="required" class="form-control" name="row[title]" type="text" value="{$row.title}">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Audiofile')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-audiofile" data-rule="required" class="form-control" size="50" name="row[audiofile]" type="text" value="{$row.audiofile}">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-audiofile" class="btn btn-danger plupload" data-input-id="c-audiofile" data-multiple="false"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-audiofile" class="btn btn-primary fachoose" data-input-id="c-audiofile" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-audiofile"></span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Accompaniment_file')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-accompaniment_file" data-rule="required" class="form-control" size="50" name="row[accompaniment_file]" type="text" value="{$row.accompaniment_file}">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-accompaniment_file" class="btn btn-danger plupload" data-input-id="c-accompaniment_file" data-multiple="false"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-accompaniment_file" class="btn btn-primary fachoose" data-input-id="c-accompaniment_file" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-accompaniment_file"></span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Lyric_file')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-lyric_file" data-rule="required" class="form-control" size="50" name="row[lyric_file]" type="text" value="{$row.lyric_file}">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-lyric_file" class="btn btn-danger plupload" data-input-id="c-lyric_file" data-multiple="false"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                    <span><button type="button" id="fachoose-lyric_file" class="btn btn-primary fachoose" data-input-id="c-lyric_file" data-multiple="false"><i class="fa fa-list"></i> {:__('Choose')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-lyric_file"></span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Status')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            
+            <div class="radio">
+            {foreach name="statusList" item="vo"}
+            <label for="row[status]-{$key}"><input id="row[status]-{$key}" name="row[status]" type="radio" value="{$key}" {in name="key" value="$row.status"}checked{/in} /> {$vo}</label> 
+            {/foreach}
+            </div>
+
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
