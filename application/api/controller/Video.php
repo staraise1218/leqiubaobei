@@ -46,7 +46,7 @@ class Video extends Api
             // ->where('video_classes_id', $classes_id)
             // ->where('video_lesson_id', $lesson_id)
             ->order('id desc')
-            ->field('episode, title')
+            ->field('episode, title, videofile')
             ->select();
 
         $this->success('', $list);
