@@ -1,0 +1,574 @@
+---------------------------------------------------------------
+[ 2018-10-06T13:50:33+08:00 ] 127.0.0.1 GET /index.php/api/video
+[ info ] leqiubaobei.localhost.com/index.php/api/video [运行时间：0.483027s][吞吐率：2.07req/s] [内存消耗：2,764.04kb] [文件加载：60]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.014001s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ef8bb023-83e4-4085-8ec0-66518551a788',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.011000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected '(', expecting identifier (T_STRING)[E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php:23]
+---------------------------------------------------------------
+[ 2018-10-06T13:51:21+08:00 ] 127.0.0.1 GET /index.php/api/video/classes
+[ info ] leqiubaobei.localhost.com/index.php/api/video/classes [运行时间：0.245014s][吞吐率：4.08req/s] [内存消耗：4,604.20kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'classes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '39e3141f-0cd0-4fd6-9ab1-688884746c92',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Video->classes[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=leqiubaobei;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_video_classes` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_video_classes` ORDER BY `id` DESC [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-10-06T13:52:51+08:00 ] 127.0.0.1 GET /index.php/api/video/classes
+[ info ] leqiubaobei.localhost.com/index.php/api/video/classes [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：4,604.28kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007001s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'classes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '55e334a6-805b-462f-8ded-3f8ab9ffd86b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Video->classes[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=leqiubaobei;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_video_classes` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_video_classes` ORDER BY `id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-06T13:53:02+08:00 ] 127.0.0.1 GET /index.php/api/video/classes
+[ info ] leqiubaobei.localhost.com/index.php/api/video/classes [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：4,604.30kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004001s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'classes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2698ea1d-f5df-4ed5-ab29-27d5cb009b19',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Video->classes[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=leqiubaobei;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_video_classes` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_video_classes` ORDER BY `id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-06T13:54:15+08:00 ] 127.0.0.1 GET /index.php/api/video/classes
+[ info ] leqiubaobei.localhost.com/index.php/api/video/classes [运行时间：0.096006s][吞吐率：10.42req/s] [内存消耗：4,603.33kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'classes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3e794d85-6c53-470e-bba1-f4c2ef97a927',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Video->classes[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=leqiubaobei;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_video_classes` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `fa_video_classes` ORDER BY `id` DESC [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-10-06T13:55:10+08:00 ] 127.0.0.1 GET /index.php/api/video/classes
+[ info ] leqiubaobei.localhost.com/index.php/api/video/classes [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：4,603.10kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'classes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9cfa45cc-2b0c-4aec-88f4-d440b5cce600',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Video->classes[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=leqiubaobei;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_video_classes` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image` FROM `fa_video_classes` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-06T14:26:37+08:00 ] 127.0.0.1 GET /index.php/api/video/classes
+[ info ] leqiubaobei.localhost.com/index.php/api/video/classes [运行时间：0.091005s][吞吐率：10.99req/s] [内存消耗：4,603.04kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.001000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005001s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'classes',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8cfcd547-ccaa-4117-bc2c-2fbc92737c35',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Video->classes[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=leqiubaobei;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_video_classes` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image` FROM `fa_video_classes` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-06T14:33:04+08:00 ] 127.0.0.1 GET /index.php/api/video/lesson
+[ info ] leqiubaobei.localhost.com/index.php/api/video/lesson [运行时间：0.092006s][吞吐率：10.87req/s] [内存消耗：4,607.04kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'lesson',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3afb03b0-7a84-4311-b514-0e757004dba6',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Video->lesson[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=leqiubaobei;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_video_lesson` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `id`,`name`,`image`,`description` FROM `fa_video_lesson` ORDER BY `weigh` DESC,`id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-06T15:01:29+08:00 ] 127.0.0.1 POST /index.php/api/video/episode
+[ info ] leqiubaobei.localhost.com/index.php/api/video/episode [运行时间：0.110006s][吞吐率：9.09req/s] [内存消耗：3,534.45kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'episode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'classes_id' => '1',
+  'lesson_id' => '1',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'aa1b76a4-41f9-4a98-a160-3a5578099ba2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.003000s ]
+[ info ] [ RUN ] app\api\controller\Video->episode[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function app\api\controller\I()[E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php:42]
+---------------------------------------------------------------
+[ 2018-10-06T15:01:42+08:00 ] 127.0.0.1 POST /index.php/api/video/episode
+[ info ] leqiubaobei.localhost.com/index.php/api/video/episode [运行时间：0.152009s][吞吐率：6.58req/s] [内存消耗：4,686.76kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'episode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'classes_id' => '1',
+  'lesson_id' => '1',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a60dcbdb-1fd3-46c2-8691-36800640fa90',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Video->episode[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=leqiubaobei;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_video_episode` [ RunTime:0.004000s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'weigh' in 'order clause'[E:\PHPTools\www\leqiubaobei\thinkphp\library\think\db\Connection.php:390]
+---------------------------------------------------------------
+[ 2018-10-06T15:01:56+08:00 ] 127.0.0.1 POST /index.php/api/video/episode
+[ info ] leqiubaobei.localhost.com/index.php/api/video/episode [运行时间：0.091005s][吞吐率：10.99req/s] [内存消耗：4,614.47kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.006001s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'episode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'classes_id' => '1',
+  'lesson_id' => '1',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5533cf1e-c00c-432a-992b-6979c7a259b2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Video->episode[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=leqiubaobei;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_video_episode` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `episode`,`title` FROM `fa_video_episode` WHERE  `video_classes_id` IS NULL  AND `video_lesson_id` IS NULL ORDER BY `id` DESC [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-06T15:02:34+08:00 ] 127.0.0.1 POST /index.php/api/video/episode
+[ info ] leqiubaobei.localhost.com/index.php/api/video/episode [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：4,614.52kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'episode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'classes_id' => '1',
+  'lesson_id' => '1',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'baef610c-82d3-4315-b5e6-68d1af8b744f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002001s ]
+[ info ] [ RUN ] app\api\controller\Video->episode[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002001s ] mysql:host=127.0.0.1;dbname=leqiubaobei;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_video_episode` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT `episode`,`title` FROM `fa_video_episode` WHERE  `video_classes_id` IS NULL  AND `video_lesson_id` IS NULL ORDER BY `id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-06T15:02:46+08:00 ] 127.0.0.1 POST /index.php/api/video/episode
+[ info ] leqiubaobei.localhost.com/index.php/api/video/episode [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：3,535.12kb] [文件加载：66]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'episode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'classes_id' => '1',
+  'lesson_id' => '1',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1083719a-1e00-4aaa-990d-79c303f72af3',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Video->episode[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Call to undefined function app\api\controller\p()[E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php:44]
+---------------------------------------------------------------
+[ 2018-10-06T15:02:57+08:00 ] 127.0.0.1 POST /index.php/api/video/episode
+[ info ] leqiubaobei.localhost.com/index.php/api/video/episode [运行时间：0.131007s][吞吐率：7.63req/s] [内存消耗：4,615.05kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007000s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'episode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'classes_id' => '1',
+  'lesson_id' => '1',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a25879fc-9a68-4624-ad64-bbea33915294',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Video->episode[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=leqiubaobei;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_video_episode` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `episode`,`title` FROM `fa_video_episode` WHERE  `video_classes_id` IS NULL  AND `video_lesson_id` IS NULL ORDER BY `id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-06T15:03:18+08:00 ] 127.0.0.1 POST /index.php/api/video/episode
+[ info ] leqiubaobei.localhost.com/index.php/api/video/episode [运行时间：0.131008s][吞吐率：7.63req/s] [内存消耗：4,611.74kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007001s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'episode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'classes_id' => '1',
+  'lesson_id' => '1',
+  'cache-control' => 'no-cache',
+  'postman-token' => '01d67061-825b-465e-ba75-9da511e1b1c8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Video->episode[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=leqiubaobei;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_video_episode` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `episode`,`title` FROM `fa_video_episode` ORDER BY `id` DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-06T16:02:30+08:00 ] 127.0.0.1 POST /index.php/api/video/episode
+[ info ] leqiubaobei.localhost.com/index.php/api/video/episode [运行时间：0.101005s][吞吐率：9.90req/s] [内存消耗：4,612.64kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.000000s ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ BEHAVIOR ] Run Closure @app_init [ RunTime:0.007001s ]
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'video',
+    2 => 'episode',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'classes_id' => '1',
+  'lesson_id' => '1',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ab253890-9a5a-41e3-b1e3-3a1c60eb035f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'leqiubaobei.localhost.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LANG ] E:\PHPTools\www\leqiubaobei\public/../application/api\lang\zh-cn.php
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Common @module_init [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Video->episode[ E:\PHPTools\www\leqiubaobei\application\api\controller\Video.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=leqiubaobei;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `fa_video_episode` [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `episode`,`title`,`videofile` FROM `fa_video_episode` ORDER BY `id` DESC [ RunTime:0.000000s ]
