@@ -37,6 +37,13 @@ class VideoEpisode extends Model
     }
 
 
+    public function videoClasses(){
+        return $this->belongsTo('videoClasses', 'video_classes_id')->setEagerlyType(0);
+    }
 
+
+    public function videoLesson(){
+        return $this->belongsTo('videoLesson', 'video_lesson_id')->setEagerlyType(0);
+    }
 
 }

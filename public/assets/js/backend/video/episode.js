@@ -25,8 +25,8 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                     [
                         {checkbox: true},
                         {field: 'id', title: __('Id')},
-                        {field: 'video_classes_id', title: __('Video_classes_id')},
-                        {field: 'video_lesson_id', title: __('Video_lesson_id')},
+                        {field: 'video_classes.name', title: __('Video_classes_id')},
+                        {field: 'video_lesson.name', title: __('Video_lesson_id')},
                         {field: 'episode', title: __('Episode')},
                         {field: 'title', title: __('Title')},
                         {field: 'videofile', title: __('Videofile'), visible: false},

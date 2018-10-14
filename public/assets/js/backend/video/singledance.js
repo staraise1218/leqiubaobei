@@ -26,7 +26,8 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
                         {checkbox: true},
                         {field: 'id', title: __('Id')},
                         {field: 'video_episode_id', title: __('Video_episode_id')},
-                        {field: 'video', title: __('Video')},
+                        {field: 'title', title: __('Title')},
+                        {field: 'video', title: __('Video'), visible: false},
                         {field: 'createtime', title: __('Createtime'), operate:'RANGE', addclass:'datetimerange', formatter: Table.api.formatter.datetime},
                         {field: 'operate', title: __('Operate'), table: table, events: Table.api.events.operate, formatter: Table.api.formatter.operate}
                     ]

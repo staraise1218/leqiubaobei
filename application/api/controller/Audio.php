@@ -8,7 +8,7 @@ use think\Db;
 /**
  * 示例接口
  */
-class Video extends Api
+class Audio extends Api
 {
 
     //如果$noNeedLogin为空表示所有接口都需要登录才能请求
@@ -22,7 +22,7 @@ class Video extends Api
 
     // 班级
     public function classes(){
-        $list = Db::name('video_classes')
+        $list = Db::name('audio_classes')
             ->order('weigh desc, id desc')
             ->field('id, name, image')
             ->select();
@@ -32,7 +32,7 @@ class Video extends Api
 
     // 课程
     public function lesson(){
-        $list = Db::name('video_lesson')
+        $list = Db::name('audio_lesson')
             ->order('weigh desc, id desc')
             ->field('id, name, image, description')
             ->select();
@@ -45,9 +45,9 @@ class Video extends Api
         $classes_id = input('post.classes_id');
         $lesson_id = input('post.lesson_id');
 
-        $list = Db::name('video_episode')
-            ->where('video_classes_id', $classes_id)
-            ->where('video_lesson_id', $lesson_id)
+        $list = Db::name('audio_episode')
+            ->where('audio_classes_id', $classes_id)
+            ->where('audio_lesson_id', $lesson_id)
             ->where('status', 1)
             ->order('id desc')
             ->field('id, episode, title, videofile, guide_melody_file, accompaniment_file, lyric_file')
@@ -58,10 +58,10 @@ class Video extends Api
 
     // 单只舞蹈
     public function singledance(){
-        $video_episode_id = input('post.video_episode_id');
+        $audio_episode_id = input('post.audio_episode_id');
 
-        $list = Db::name('video_singledance')
-            ->where('video_episode_id', $video_episode_id)
+        $list = Db::name('audio_singledance')
+            ->where('audio_episode_id', $audio_episode_id)
             ->field('title, video')
             ->find();
 

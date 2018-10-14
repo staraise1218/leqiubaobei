@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:83:"E:\PHPTools\www\leqiubaobei\public/../application/common\view\tpl\dispatch_jump.tpl";i:1529292885;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:1:{s:83:"E:\PHPTools\www\leqiubaobei\public/../application/common\view\tpl\dispatch_jump.tpl";i:1539154694;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,9 +46,7 @@
         <?php endif; ?>
     </p>
 </div>
-<div class="copyright">
-    <p>Powered by <a href="https://www.fastadmin.net/?ref=jump">FastAdmin</a></p>
-</div>
+
 <?php if($url): ?>
     <script type="text/javascript">
         (function () {
