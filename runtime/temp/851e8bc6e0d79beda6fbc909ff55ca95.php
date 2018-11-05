@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:77:"E:\PHPTools\www\leqiubaobei\public/../application/admin\view\index\login.html";i:1536896552;s:67:"E:\PHPTools\www\leqiubaobei\application\admin\view\common\meta.html";i:1529292885;s:69:"E:\PHPTools\www\leqiubaobei\application\admin\view\common\script.html";i:1529292885;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:3:{s:77:"E:\PHPTools\www\leqiubaobei\public/../application/admin\view\index\login.html";i:1541385194;s:67:"E:\PHPTools\www\leqiubaobei\application\admin\view\common\meta.html";i:1529292885;s:69:"E:\PHPTools\www\leqiubaobei\application\admin\view\common\script.html";i:1529292885;}*/ ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -104,12 +104,12 @@
                                     </span>
                                 </div>
                                 <?php endif; ?>
-                                <div class="form-group">
+                                <!-- <div class="form-group">
                                     <label class="inline" for="keeplogin">
                                         <input type="checkbox" name="keeplogin" id="keeplogin" value="1" />
                                         <?php echo __('Keep login'); ?>
                                     </label>
-                                </div>
+                                </div> -->
                                 <div class="form-group">
                                     <button type="submit" class="btn btn-success btn-lg btn-block"><?php echo __('Sign in'); ?></button>
                                 </div>
