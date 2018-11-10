@@ -2,11 +2,13 @@ define(['jquery', 'bootstrap', 'backend', 'table', 'form'], function ($, undefin
 
     var Controller = {
         index: function () {
+            var video_episode_id = $('input[name=video_episode_id]').val();
+
             // 初始化表格参数配置
             Table.api.init({
                 extend: {
-                    index_url: 'video/singledance/index',
-                    add_url: 'video/singledance/add',
+                    index_url: 'video/singledance/index?video_episode_id='+video_episode_id,
+                    add_url: 'video/singledance/add?video_episode_id='+video_episode_id,
                     edit_url: 'video/singledance/edit',
                     del_url: 'video/singledance/del',
                     multi_url: 'video/singledance/multi',
