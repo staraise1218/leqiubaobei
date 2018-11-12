@@ -56,6 +56,22 @@ class Video extends Api
         $this->success('', $list);
     }
 
+    public function question(){
+        $episode_id = input('post.episode_id');
+
+        $info = Db::name('video_question')
+            ->where('episode_id', $episode_id)
+            ->field('title, images, answer')
+            ->find();
+
+        if(is_array($info) && !empty($info)){
+            $info['images'] = explode(',', $info['images']);
+            $info['answer'] = explode(',', $info['answer']);
+        }
+
+        $this->success('', $info);
+    }
+
     // 单只舞蹈
     public function singledance(){
         $video_episode_id = input('post.video_episode_id');
