@@ -34,7 +34,7 @@ class Json extends Response
         try {
             // 返回JSON数据格式到客户端 包含状态信息
             $data = json_encode($data, $this->options['json_encode_param']);
-
+            $data = str_replace('null', '""', $data);
             if ($data === false) {
                 throw new \InvalidArgumentException(json_last_error_msg());
             }
