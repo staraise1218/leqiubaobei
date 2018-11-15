@@ -79,7 +79,7 @@ class Video extends Api
         $list = Db::name('video_singledance')
             ->where('video_episode_id', $video_episode_id)
             ->field('title, image, video')
-            ->find();
+            ->select();
 
         $this->success('', $list);
     }
