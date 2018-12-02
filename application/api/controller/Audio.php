@@ -40,9 +40,23 @@ class Audio extends Api
         $this->success('', $list);
     }
 
+    // 音频列表
+    public function audioList(){
+        $lesson_id = input('post.lesson_id');
+
+        $list = Db::name('audio_episode')
+            ->where('audio_classes_id', $classes_id)
+            ->where('audio_lesson_id', $lesson_id)
+            ->where('status', 1)
+            ->order('id desc')
+            ->field('id, title, audiofile, timelong, singer, album')
+            ->select();
+
+        $this->success('', $list);
+    }
+
     // 集数
     public function episode(){
-        $classes_id = input('post.classes_id');
         $lesson_id = input('post.lesson_id');
 
         $list = Db::name('audio_episode')
