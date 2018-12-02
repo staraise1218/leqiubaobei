@@ -46,7 +46,6 @@ class Audio extends Api
 
         $list = Db::name('audio')
             ->where('audio_lesson_id', $lesson_id)
-            ->where('status', 1)
             ->order('id desc')
             ->field('id, title, audiofile, timelong, singer, album')
             ->select();
