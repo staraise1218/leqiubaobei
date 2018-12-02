@@ -1,0 +1,40 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Video_lesson_id')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-video_lesson_id" data-rule="required" data-source="video/lesson/index" class="form-control selectpage" name="row[video_lesson_id]" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Title')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-title" class="form-control" name="row[title]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Timelong')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-timelong" class="form-control" name="row[timelong]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Singer')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-singer" class="form-control" name="row[singer]" type="text">
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-xs-12 col-sm-2">{:__('Album')}:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-album" class="form-control" name="row[album]" type="text">
+        </div>
+    </div>
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">{:__('OK')}</button>
+            <button type="reset" class="btn btn-default btn-embossed">{:__('Reset')}</button>
+        </div>
+    </div>
+</form>
