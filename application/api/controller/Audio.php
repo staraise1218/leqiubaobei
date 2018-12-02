@@ -45,7 +45,6 @@ class Audio extends Api
         $lesson_id = input('post.lesson_id');
 
         $list = Db::name('audio_episode')
-            ->where('audio_classes_id', $classes_id)
             ->where('audio_lesson_id', $lesson_id)
             ->where('status', 1)
             ->order('id desc')
